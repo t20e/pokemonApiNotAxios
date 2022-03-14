@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import PokemonApi from './components/PokemonApi';
-
+// import PokemonApi from './components/PokemonApi';
+import PokemonApiWithAxois from './components/PokemonApiWithAxois';
 function App() {
   return (
     <div className="App">
-
-      <PokemonApi/>
+      {/* <PokemonApi/> */}
+      <PokemonApiWithAxois/>
     </div>
   );
 }
